@@ -51,6 +51,9 @@
          path: coverage
          retention-days: 5         
     docker:
+      permissions:
+        contents: read
+        packages: write
       runs-on: ubuntu-latest
       needs:
        - unit-testing
