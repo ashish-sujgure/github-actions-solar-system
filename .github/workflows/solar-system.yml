@@ -9,6 +9,7 @@ on:
     
 jobs:
     unit-testing:
+        environment: development
         name: Unit Testing
         runs-on: ubuntu-latest
         steps:
